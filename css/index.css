@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"ribeye";
+    src: url(../ribeye/Ribeye-Regular.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../ribeye/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:"Gelasio" ;
+    src: url(../ribeye/Gelasio/Gelasio-VariableFont_wght.ttf);
+}
+.container{
+   
+   height: 100%;
+   padding: 0px 200px;
+}
+.header{
+    width: 1510px;
+    height: 900px;
+    background-image: url(../images/img-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 0px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav h1{
+    font-family:"ribeye";
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+nav ul a{
+    font-family: "roboto";
+    color: white;
+    text-decoration: none;
+    font-family:"ribeye";
+    font-size: 18px;
+}
+.header button{
+    background-color: #C9453B;
+    padding: 14px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+}
+main div{
+    width: 804px;
+    height: 154px;
+}
+main div h1{
+    font-size: 65px;
+    font-family: "Gelasio";
+    color: white;
+}
+.header main{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.header p{
+    font-size: 18px;
+    color: white;
+    opacity: 0.6;
+}
+.header main div:nth-child(2){
+    width: 458px;
+    height: 87px;
+}
+.Popular-Location{
+    width: 1140px;
+    height: 768px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+   flex-direction: column;
+   gap: 20px;
+   
+}
+.Popular-Location header h1{
+    font-size: 43px;
+    text-align: center;
+    font-family:"Gelasio" ;
+    
+}
+.Popular-Location header div{
+    width: 735px;
+    height: 58px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.6;  
+}
+.Popular{
+    
+    display: flex;
+    flex-direction: column;
+  
+    gap: 20px;
+    font-family: "roboto" ;
+}
+.location{
+    width: 360px;
+    height: 500px;
+    box-shadow: 0px 0px 5px 5px rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+.location img{
+    border-radius: 10px;
+}
+.box{
+    width: 1140px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location h1{
+    font-size: 24px;
+    font-family:"Gelasio";
+}
+.location p{
+    font-family: "roboto";
+    opacity: 0.6;
+    text-align: center;
+}
+
+.Special-Offers{
+    width: 1510px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+}
+.text{
+    width: 656px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.text p{
+    font-size: 18px;
+    font-family: "roboto";
+    opacity: 0.6;
+    text-align: center;
+}
+.text h1{
+    font-size: 43px;
+    font-family: "Gelasio";
+}
+.Special-Offers nav main{
+    width: 262px;
+    height: 334px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(232, 232, 232);
+    
+}
+.Special-Offers nav{
+    width: 1510px;
+    height: 334px;
+    display: flex;
+    
+}
+.Special-Offers main h1{
+    font-size: 24px;
+    color: black;
+    font-family: "Gelasio";
+}
+.Special-Offers main div{
+    width: 262px;
+    height: 30px;
+    display: flex;
+}
+.Special-Offers main i{
+    padding: 0px 7px 0px 0px;
+    opacity: 0.6;
+}
+.Special-Offers main p{
+    padding: 0px 30px 0px 0px;
+    font-family: "roboto";
+    opacity: 0.6;
+}
+.Special-Offers main i:nth-child(1){
+    color: red;
+
+}
+.Special-Offers main i:nth-child(3){
+    color: yellow;
+}
+img{
+    border-radius: 10px;
+}
+
+.From-Blog{
+    width: 1510px;
+    height: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.From-Blog h1{
+    font-size: 43px;
+    font-family: "Gelasio";
+    text-align: center;
+    padding: 30px 0px;
+}
+#p1{
+    width: 581px;
+    font-size: 18px;
+    font-family: "roboto";
+    text-align: center;
+    opacity: 0.6;
+   
+}
+.From-Blog main{
+    width: 1140px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.From-Blog main .box-item:nth-child(1){
+    width: 554px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 30px;
+}
+.box-item p{
+    font-family:"roboto" ;
+    opacity: 0.6;
+}
+.box-item h2{
+    font-family: "Gelasio";
+    font-size: 20px;
+}
+.From-Blog main .box-item:nth-child(2){
+    width: 554px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box-item .box{
+    width: 554px;
+    height: 201px;
+    display: flex;
+}
+.box-item .box div{
+    width: auto;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:start;
+    gap: 20px;
+}
+.box div p{
+    line-height: 25px;
+    padding: 0px 20px;
+}
+.box div h2{
+    font-family:"Gelasio" ;
+    line-height: 25px;
+    padding: 0px 20px;
+}
+
+
+footer{
+    width: 1510px;
+    height: 358px;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.Trevland{
+    width: 1140px;
+    height: 348px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Trevland .box1{
+    width: 186px;
+    height: 178px;
+   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: start;
+
+    gap: 15px;
+}
+.Trevland div{
+    word-spacing: 20px;
+}
+.Trevland .box2{
+    width: 74px;
+    height: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    line-height: 32px;
+}
+.Trevland .box3{
+    width: 138px;
+    height: 156px;
+  
+    line-height: 32px;
+    word-spacing: 0px;
+}
+.Trevland .box4{
+    width: 220px;
+    height: 200px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Trevland .box4 h2{
+    font-family: "Gelasio";
+    font-size: 20px;
+}
+input{
+    width:auto;
+    height: 30px;
+    outline: none;
+}
+#button{
+    width: 120px;
+    height: 30px;
+    background-color: #C9453B;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+
+}
+
